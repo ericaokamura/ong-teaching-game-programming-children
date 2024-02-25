@@ -1,0 +1,31 @@
+main {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+h2 {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+input {
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #1D1073;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+}
