@@ -5,11 +5,19 @@ main {
 
 h2 {
     padding-top: 20px;
-    color: #FFFFFF;
+    color: #1D1073;
 }
 
 img {
     margin-top: 30px;
     width: 500px;
     height: 500px;
+}
+
+.quem-somos {
+    background-color: #FFFFFF;
+    width: 100vw;
+    max-width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
 }

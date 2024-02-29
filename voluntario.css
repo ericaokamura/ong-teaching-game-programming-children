@@ -5,7 +5,7 @@ main {
 
 h2 {
     padding-top: 20px;
-    color: #FFFFFF;
+    color: #1D1073;
 }
 
 input {
@@ -28,4 +28,10 @@ textarea {
 
 button {
     margin-top: 20px;
+    background-color: #1D1073;
+    font-size: 20px;
+}
+
+a {
+    color: #FFFFFF;
 }
