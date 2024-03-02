@@ -1,0 +1,35 @@
+.img-sexo img {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.img-sexo {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.img-grupos img {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.img-grupos {
+    margin-top: 30px;
+}
+
+h4 {
+    color: #07F2B0;
+}
+
+p {
+    color: #07F2B0;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+.infografico {
+    height: 1100px;
+    overflow: scroll;
+    overflow-x: hidden;
+}

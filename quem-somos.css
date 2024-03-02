@@ -1,21 +1,14 @@
 main {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h2 {
     padding-top: 20px;
-    color: #1D1073;
-}
-
-img {
-    margin-top: 30px;
-    width: 500px;
-    height: 500px;
+    color: #07F2B0;
 }
 
 .quem-somos {
-    background-color: #FFFFFF;
     width: 100vw;
     max-width: 100%;
     padding-bottom: 20px;

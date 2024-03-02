@@ -2,9 +2,9 @@ body {
     background-color: #FFFFFF;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url("landscape.png");
     background-size: cover;
     background-attachment: fixed;
+    background-color: #011F26;
 }
 
 .div-header nav ul li {
@@ -14,7 +14,7 @@ body {
     float: left;
     line-height: 2.5;
     font-size: 16px;
-    color: #1D1073;
+    color: #07F2B0;
     padding-top: 20px;
 }
 
@@ -33,7 +33,13 @@ a {
 h3 {
     padding-right: 10px;
     padding-left: 10px;
-    color: #1D1073;
+    color: #07F2B0;
+}
+
+.logo img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 

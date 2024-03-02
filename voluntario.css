@@ -1,11 +1,11 @@
 main {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h2 {
     padding-top: 20px;
-    color: #1D1073;
+    color: #07F2B0;
 }
 
 input {
@@ -19,7 +19,7 @@ form {
 h4 {
     margin-top: 25px;
     margin-bottom: 10px;
-    color: #1D1073;
+    color: #07F2B0;
 }
 
 textarea {
@@ -28,7 +28,7 @@ textarea {
 
 button {
     margin-top: 20px;
-    background-color: #1D1073;
+    background-color: #07F2B0;
     font-size: 20px;
 }
 
