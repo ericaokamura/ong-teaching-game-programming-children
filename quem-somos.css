@@ -1,16 +1,16 @@
 main {
     display: inline-block;
     margin-top: 50px;
+    width: 100vw;
+    max-width: 100%;
 }
 
-h2 {
+p {
     padding-top: 20px;
     color: #07F2B0;
 }
 
 .quem-somos {
-    width: 100vw;
-    max-width: 100%;
     padding-bottom: 20px;
     margin-bottom: 60px;
 }

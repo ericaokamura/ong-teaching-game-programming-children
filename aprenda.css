@@ -2,10 +2,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 20px 0;
 }
 
-h2 {
+p {
     padding-top: 20px;
     color: #07F2B0;
 }
@@ -16,6 +16,10 @@ input {
     margin-bottom: 20px;
 }
 
+.input-radio {
+    display: inline-flex;
+}
+
 form {
     margin: 20px 0;
     width: 80vw;
@@ -23,6 +27,7 @@ form {
     border-radius: 10px;
     padding: 10px;
 }
+
 
 label, h4 {
     color: #07F2B0;
