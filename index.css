@@ -1,5 +1,5 @@
 .img-sexo img {
-    width: 500px;
+    width: 40vw;
     margin-bottom: 20px;
 }
 
@@ -9,12 +9,12 @@
 }
 
 .img-grupos img {
-    width: 500px;
+    width: 40vw;
     margin-bottom: 30px;
 }
 
 .img-grupos {
-    margin-top: 30px;
+    margin: 50px 0;
 }
 
 h4 {
@@ -26,10 +26,4 @@ p {
     margin-bottom: 70px;
     margin-top: 50px;
     font-size: xx-large;
-}
-
-.infografico {
-    height: 1100px;
-    overflow: scroll;
-    overflow-x: hidden;
 }
