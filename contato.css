@@ -10,13 +10,19 @@ h2 {
 
 input {
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 form {
-    margin-top: 20px;
+    margin: 20px 0;
+    width: 80vw;
+    border: solid 2px #07F2B0; 
+    border-radius: 10px;
+    padding: 10px;
 }
 
-h4 {
+label, h4 {
     margin-top: 25px;
     margin-bottom: 10px;
     color: #07F2B0;
@@ -28,6 +34,16 @@ textarea {
 
 button {
     margin-top: 20px;
+    background-color: #07F2B0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    color: #fff;
     background-color: #07F2B0;
     font-size: 20px;
 }
