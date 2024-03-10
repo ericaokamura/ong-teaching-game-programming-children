@@ -7,27 +7,13 @@ body {
     background-color: #011F26;
 }
 
-.div-header nav ul li {
-    width: 200px;
-    display: block;
-    text-align: center;
-    float: left;
-    line-height: 2.5;
-    font-size: 16px;
-    color: #07F2B0;
-    padding-top: 20px;
-}
-
 .div-header {
     width: 100vw;
     max-width: 100%;
+    padding: 0 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-a {
-    text-decoration: none;
 }
 
 h3 {
@@ -36,11 +22,22 @@ h3 {
     color: #07F2B0;
 }
 
-.logo img {
-    margin-top: 20px;
-    width: 200px;
-    height: 200px;
+.div-header img {
+    width: 150px;
+    height: 150px;
 }
 
+.nav-container {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5;
+    font-size: 18px;
+    color: #07F2B0;
+    text-align: center;
+}
 
-
+a {
+    color: #07F2B0;
+    text-decoration: none;
+}
