@@ -3,9 +3,9 @@ main {
     margin-top: 50px;
 }
 
-p {
+main p {
     padding-top: 20px;
-    color: #07F2B0;
+    color: #065bf1;
 }
 
 input {
@@ -17,7 +17,7 @@ input {
 form {
     margin: 20px 0;
     width: 80vw;
-    border: solid 2px #07F2B0; 
+    border: solid 2px #065bf1; 
     border-radius: 10px;
     padding: 10px;
 }
@@ -25,7 +25,7 @@ form {
 label, h4 {
     margin-top: 25px;
     margin-bottom: 10px;
-    color: #07F2B0;
+    color: #065bf1;
 }
 
 textarea {
@@ -34,9 +34,8 @@ textarea {
 
 button {
     margin-top: 20px;
-    background-color: #07F2B0;
+    background-color: #065bf1;
     font-size: 20px;
-    color: #FFFFFF;
 }
 
 .submit-btn {
@@ -44,6 +43,6 @@ button {
     padding: 10px;
     display: block;
     color: #fff;
-    background-color: #07F2B0;
+    background-color: #065bf1;
     font-size: 20px;
 }
