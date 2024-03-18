@@ -10,13 +10,18 @@
     <link href="../css/aprenda.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>New Player</title></head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <title>New Player</title>
+</head>
 
 <body>
     <div class="faixa">
         <img src="../images/icons.png" alt="Icons">
-        <a href="#"><p>LOGIN</p></a>
+        <a href="#">
+            <p>LOGIN</p>
+        </a>
     </div>
     <header class="div-header">
         <a href="../../index.html"><img src="../images/logo.png" alt="Logo"></a>
@@ -43,41 +48,50 @@
             e poderá também participar de Hackathons uma vez por mês.
         </p>
         <p>
-            <strong style="font-size: large;">Caso possua interesse em participar dessas oficinas, inscreva-se por meio do formulário abaixo:</strong>
+            <strong style="font-size: large;">Caso possua interesse em participar dessas oficinas, inscreva-se por meio
+                do formulário abaixo:</strong>
         </p>
 
         <form>
-                <label>Nome completo:</label>
-                <input type="text">
+            <label>Nome completo:</label>
+            <input type="text">
 
-                <label>RG:</label>
-                <input type="text">
+            <label>RG:</label>
+            <input type="text">
 
-                <label>Celular:</label>
-                <input type="text">
+            <label>Celular:</label>
+            <input type="text">
 
-                <label>Email:</label>
-                <input type="text">
+            <label>Email:</label>
+            <input type="text">
 
-                <label>Idade:</label>
-                <input type="text">
+            <label>Idade:</label>
+            <input type="text">
 
             <h4>Possui algum conhecimento de programação?</h4>
             <div class="input-radio">
                 <input type="radio" id="sim"> 
                 <label for="sim">SIM</label>
 
-                    <input type="radio" id="nao">
-                    <label for="nao">NÃO</label>
-                </div>
+                <input type="radio" id="nao">
+                <label for="nao">NÃO</label>
+            </div>
 
-                <a class="submit-btn" href="./mensagem.html">Enviar</a>
+            <a class="submit-btn" href="./mensagem.html">Enviar</a>
 
         </form>
-
-
     </main>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>

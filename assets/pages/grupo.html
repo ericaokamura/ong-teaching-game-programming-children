@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,21 @@
     <link href="../css/grupo.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <title>New Player</title>
 </head>
+
 <body>
 
     <div class="faixa">
         <img src="../images/icons.png" alt="Icons">
-        <a href="#"><p>LOGIN</p></a>
-    </div>    <header class="div-header">
+        <a href="#">
+            <p>LOGIN</p>
+        </a>
+    </div>
+    <header class="div-header">
         <a href="../../index.html"><img src="../images/logo.png" alt="Logo"></a>
         <nav class="nav-container">
             <a href="../../index.html">Home</a>
@@ -31,7 +38,7 @@
 
     <main>
         <div style="margin-top: 30px; color: #065bf1;">
-        
+
             <h1>Agradecemos pela visita ao nosso site!</h1>
             <div>
                 <h2>Membros da Equipe:</h2>
@@ -47,8 +54,19 @@
                 <h5>Mês/Ano de desenvolvimento: Março/2024</h5>
             </div>
         </div>
-    
+
     </main>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
+
 </html>

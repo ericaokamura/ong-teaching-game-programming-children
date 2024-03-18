@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,18 @@
     <link href="assets/css/index.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balthazar&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <title>New Player</title>
 </head>
+
 <body>
     <div class="faixa">
         <img src="assets/images/icons.png" alt="Icons">
-        <a href="#"><p>LOGIN</p></a>
+        <a href="#">
+            <p>LOGIN</p>
+        </a>
     </div>
     <header class="div-header">
         <a href="./index.html"><img src="assets/images/logo.png" alt="Logo"></a>
@@ -36,19 +42,31 @@
         <div class="infografico">
             <div class="img-sexo">
                 <img src="assets/images/sexo.png">
-                <p>Ainda que meninas e jovens mulheres sejam ainda minoria nas oficinas de programação de jogos, o número de crianças e adolescentes pertencentes a esse grupo vem aumentando a cada ano,</p>
-                <p>o que significa que mais mulheres estão se engajando na área de ciência da computação, área que antes era dominada por homens.</p>
+                <p>Ainda que meninas e jovens mulheres sejam ainda minoria nas oficinas de programação de jogos, o
+                    número de crianças e adolescentes pertencentes a esse grupo vem aumentando a cada ano,</p>
+                <p>o que significa que mais mulheres estão se engajando na área de ciência da computação, área que antes
+                    era dominada por homens.</p>
             </div>
 
             <div class="img-grupos">
                 <img src="assets/images/grupos.png">
-                <p>Pudemos notar também que mais crianças e adolescentes de grupos étnicos-raciais minoritários vêm cada vez mais marcando presença nas nossas oficinas.</p>    
+                <p>Pudemos notar também que mais crianças e adolescentes de grupos étnicos-raciais minoritários vêm cada
+                    vez mais marcando presença nas nossas oficinas.</p>
             </div>
         </div>
 
     </main>
 
-
-
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
+
 </html>
