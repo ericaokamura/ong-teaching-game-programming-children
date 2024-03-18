@@ -69,5 +69,9 @@ a:hover {
     height: 6vh;
 }
 
-
-
+@media (min-width: 1024px) {
+    .faixa img {
+        padding-top: 20px;
+        height: 8vh;
+    }
+}
