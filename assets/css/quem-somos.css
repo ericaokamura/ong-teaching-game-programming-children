@@ -1,14 +1,18 @@
 main {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 40px;
     margin-top: 50px;
     width: 100vw;
     max-width: 100%;
 }
 
-.quem-somos p {
+.quem-somos p, li {
     font-size: large;
     padding-top: 20px;
     color: #065bf1;
+    line-height: 1.5rem;
 }
 
 .quem-somos h1 {
@@ -20,4 +24,9 @@ main {
 .quem-somos {
     padding-bottom: 20px;
     margin-bottom: 60px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
 }
