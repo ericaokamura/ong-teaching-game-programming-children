@@ -1,19 +1,19 @@
 .img-sexo {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .img-sexo img {
-    width: 40vw;
-    margin-bottom: 20px;
+    width: 30vw;
+    margin-bottom: 10px;
 }
 
 .img-grupos {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .img-grupos img {
-    width: 40vw;
+    width: 30vw;
     margin-bottom: 30px;
 }
 
@@ -21,7 +21,7 @@
     color: #065bf1;
     margin-bottom: 70px;
     margin-top: 50px;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 .img-sexo p {

@@ -6,6 +6,13 @@ main {
 }
 
 .quem-somos p {
+    font-size: large;
+    padding-top: 20px;
+    color: #065bf1;
+}
+
+.quem-somos h1 {
+    font-size: xx-large;
     padding-top: 20px;
     color: #065bf1;
 }

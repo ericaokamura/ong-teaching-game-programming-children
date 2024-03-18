@@ -4,6 +4,7 @@ main {
 }
 
 main p {
+    font-size: larger;
     padding-top: 20px;
     color: #065bf1;
 }

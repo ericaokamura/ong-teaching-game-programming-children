@@ -3,9 +3,10 @@ main {
     margin-top: 50px;
 }
 
-h2 {
+main h2 {
     padding-top: 20px;
     color: #065bf1;
+    font-size: larger;
 }
 
 input {

@@ -6,6 +6,7 @@ main {
 }
 
 main p {
+    font-size: large;
     padding-top: 20px;
     color: #065bf1;
 }
