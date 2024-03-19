@@ -44,26 +44,3 @@ main {
     font-size: larger;
 }
 
-table {
-    border: 1px solid black;
-    width: 80%;
-    border-collapse: collapse;
-    margin-bottom: 28px;
-}
-
-th {
-    background-color: #06E8BB;
-    color: #333;
-    font-weight: bold;
-    padding: 8px;
-    border: 1px solid #ddd;
-}
-
-td {
-    padding: 8px;
-    border: 1px solid #ddd;
-}
-
-tr:nth-child(even) {
-    background-color: #bbfff1;
-}
